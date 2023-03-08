@@ -114,7 +114,11 @@ model could have been much better as it takes bidirectional RNN into considerati
 
 ### References
 [1] https://www.kaggle.com/snap/amazon-fine-food-reviews/code
+
 [2] https://medium.com/luisfredgs/automatic-text-summarization-with-machine-learning-an-overview-68ded5717a25
+
 [3] https://colab.research.google.com/github/ziadloo/attention_keras/blob/master/examples/colab/LSTM.ipynb
+
 [4] https://www.tensorflow.org/api_docs/python/tf/keras/backend/rnn
+
 [5] https://www.itm-conferences.org/articles/itmconf/pdf/2021/05/itmconf_icacc2021_03023.pdf
