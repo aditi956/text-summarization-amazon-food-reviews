@@ -105,8 +105,16 @@ abstractive summariser, after performing 10 epochs of 1024 batch size we receive
 1.7440 which could be considered good for this less number as for the large number of epochs, it was not
 possible for us to train due to the memory issue and slow computation. After trying on colab with the GPU,
 it was taking around 6 hours for each epoch and due to the time limit being exceeded we trained on the
-whole data set with a small number of epochs. As we can see in the figure 11, train and test loss
+whole data set with a small number of epochs.Train and test loss
 decreases with each epoch and still the plateau has not been reached and there is still scope for better
 performance. For the attention mechanism, which was a high risk phase, the custom attention model was
 not working correctly on our dataset, in case of the attention model, accuracy and performance of the
-model could have been much better as it takes bidirectional RNN into consideration
+model could have been much better as it takes bidirectional RNN into consideration.
+
+
+### References
+[1] https://www.kaggle.com/snap/amazon-fine-food-reviews/code
+[2] https://medium.com/luisfredgs/automatic-text-summarization-with-machine-learning-an-overview-68ded5717a25
+[3] https://colab.research.google.com/github/ziadloo/attention_keras/blob/master/examples/colab/LSTM.ipynb
+[4] https://www.tensorflow.org/api_docs/python/tf/keras/backend/rnn
+[5] https://www.itm-conferences.org/articles/itmconf/pdf/2021/05/itmconf_icacc2021_03023.pdf
